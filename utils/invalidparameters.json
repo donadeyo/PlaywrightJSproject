@@ -1,0 +1,15 @@
+[{
+  "username": "invaliduser123",
+  "password": "wrongpassword123",
+  "expectedMessage": "User does not exist."
+},
+{
+  "username": "TestDDNA",
+  "password": "wrongpassword123",
+  "expectedMessage": "Wrong password."
+},
+{
+  "username": "invaliduser123",
+  "password": "TestPassword123",
+  "expectedMessage": "User does not exist."
+}]
